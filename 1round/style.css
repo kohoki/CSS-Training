@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+}
+
+.top-container {
+  background-color: aquamarine;
+  border: solid 10px;
+  padding: 20px;
+  height: 200px;
+  width: 200px;
+}
+
+.middle-container {
+  background-color: rgb(210, 17, 17);
+  border: solid 20px;
+  height: 200px;
+  width: 200px;
+  margin-left: 260px;
+}
+
+.bottom-container {
+  background-color: blueviolet;
+  border: solid 10px;
+  height: 200px;
+  width: 200px;
+  margin-left: 500px;
+}
