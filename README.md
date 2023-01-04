@@ -5,3 +5,5 @@
 ![Picture-of-1Round](https://github.com/kohoki/CSS-Training/blob/8c15f65797b72de0e3bc01f4052c57d8b063124d/1round/1round.png)
 
 ## 2 Round (Relative Positioning)
+
+![Picture-of-2Round](https://github.com/kohoki/CSS-Training/blob/bf42cb7a09221b8d13c9ff1f29b79678f30572f6/2round/2round.png)
