@@ -1,23 +1,22 @@
 body {
-  margin: 0;
+  text-align: center;
 }
 div {
   height: 200px;
   width: 200px;
+  display: inline-block;
 }
 .red {
   background-color: red;
-  position: absolute;
-  top: 400px;
-  left: 400px;
 }
 .blue {
   background-color: blue;
-  position: absolute;
-  top: 200px;
-  left: 200px;
 }
 .yellow {
   background-color: yellow;
-  position: absolute;
+}
+
+p {
+  width: 10%;
+  margin: 0 auto 0 auto;
 }
