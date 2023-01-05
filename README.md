@@ -27,5 +27,43 @@ text-align: center; // centres text and all inline block elements
 h1 {
 width: 10%; // now it is left
 margin: 0 auto 0 auto; // (top|0| right|auto| bottom|0| left|auto|) now it is in the middle :-)
+margin: 0 auto; // the same result
 }
+```
+
+### (Fonts)
+
+```
+font-family: serif; //have small lines at the ends of the letters called serifs
+font-family: sans-serif; // while sans-serif fonts have no serifs and are often used in digital applications
+font-family: monospace; // all letters have the same width - mostly code editors and terminal emulators
+```
+
+#### Fonts fallback
+
+font-family: 'Roboto', sans-serif;
+
+#### "Web Safe" Fonts for HTML and CSS
+
+check:
+https://www.cssfontstack.com/
+
+#### If you want everyone to have your font:
+
+https://fonts.google.com/
+
+As an example
+To embed a font, copy the code into the `<head>` of your html
+
+```
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Sacramento&display=swap" rel="stylesheet">
+```
+
+CSS rules to specify families
+
+```
+font-family: 'Roboto', sans-serif;
+font-family: 'Sacramento', cursive;
 ```

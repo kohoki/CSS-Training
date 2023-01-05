@@ -1,0 +1,18 @@
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: aliceblue;
+}
+div {
+  height: 600px;
+  width: 600px;
+  margin: 0 auto;
+  background-color: rgb(124, 178, 212);
+  padding-top: 30px;
+}
+h1 {
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  font-family: "Montserrat", sans-serif;
+}
