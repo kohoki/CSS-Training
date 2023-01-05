@@ -15,7 +15,7 @@ Based on the best of my knowledge and experience.
 
 ![Picture-of-21Round](https://github.com/kohoki/CSS-Training/blob/00d9dd1a3b2b7d4cf2ca9100a28e3b8e060a5e50/2.1round/21round.png)
 
-### 3 Round (Dark Art of Centering Elements)
+## 3 Round (Dark Art of Centering Elements)
 
 ```
 body {
@@ -31,7 +31,7 @@ margin: 0 auto; // the same result
 }
 ```
 
-### (Fonts)
+## Fonts
 
 ```
 font-family: serif; //have small lines at the ends of the letters called serifs
