@@ -17,6 +17,7 @@ Based on the best of my knowledge and experience.
 
 ### 3 Round (Dark Art of Centering Elements)
 
+```
 body {
 text-align: center; // centres text and all inline block elements
 }
@@ -27,3 +28,4 @@ h1 {
 width: 10%; // now it is left
 margin: 0 auto 0 auto; // (top|0| right|auto| bottom|0| left|auto|) now it is in the middle :-)
 }
+```
