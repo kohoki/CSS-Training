@@ -56,7 +56,7 @@ body {
 
 Without flexbox or grit arrangement of images and text.
 
-![Picture-of-4.1Round]
+![Picture-of-4.1Round](https://github.com/kohoki/CSS-Training/blob/e66addf55947b7e47bc63f722779ebed90783187/4.1round/1.png)
 
 ```
 div img {
