@@ -68,3 +68,33 @@ CSS rules to specify families
 font-family: 'Roboto', sans-serif;
 font-family: 'Sacramento', cursive;
 ```
+
+#### Font size
+
+```
+font-size: 16px; // 16px = 100% | 90px/16 = 5,625 -> 562,5%
+font-size: 1em;  // 16px = 100% = 1em | 90px/16 = 5,625em
+```
+
+##### Good to know
+
+px is static
+em + % is dynamic | better for people with limitations - because you can determine the size yourself in the browser
+but:
+
+```
+
+body {
+    font-size: 2em;
+}
+h1 {
+    font-size: 4em; // --> the result is 6em - 2em from parent + 4em from child (the same with body {font-size: 200%})
+}
+
+// best way (seems to be)
+
+h1 {
+    font-size: 4rem; --> it ignores the parent - same power like em + extra feature of relative :-)
+}
+
+```
