@@ -1,0 +1,24 @@
+body {
+  text-align: center;
+  font-family: "Merriweather", serif;
+  color: rgb(55, 111, 161);
+}
+div {
+  margin: auto;
+  width: 500px;
+  height: 400px;
+  background-color: beige;
+}
+div img {
+  padding: 20px 0 20px 20px;
+  width: 25%;
+  float: left;
+}
+p {
+  clear: left;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-family: "Sacramento", cursive;
+}

@@ -52,6 +52,25 @@ body {
 }
 ```
 
+### 4.1 float arround image
+
+Without flexbox or grit arrangement of images and text.
+
+![Picture-of-4.1Round]
+
+```
+div img {
+  padding: 20px 0 20px 20px;
+  width: 25%;
+  float: left;      // This allows the other elements to arrange themselves around the image in that case.
+}
+p {
+  clear: left;      // It is more or less the anti float. | This means that the text is no longer arranged next to the image.
+  line-height: 1.5rem;
+}
+
+```
+
 ## Fonts
 
 ```
