@@ -33,9 +33,24 @@ margin: 0 auto; // the same result
 
 ## 4 Image Size
 
-The goal is to have the same size of the pictures. Each picture has a different size.
+The goal is to have the same size of the pictures. Each picture has a different starting size.
 
-![Picture-of-4Round]
+![Picture-of-4Round](https://github.com/kohoki/CSS-Training/blob/e018c79b7ee62a6bb33e337aa7f70fabbe9cf958/4round/2.png)
+
+```
+body {
+  text-align: center;
+}
+.topContainer {
+  margin: auto;
+  height: 100px;
+  width: 200px;
+}
+
+.topContainer img {
+  width: 25%;           // Good to know. The changed width refers in relation to the parent. This would be the div. Consequently, all images have the same size.
+}
+```
 
 ## Fonts
 
