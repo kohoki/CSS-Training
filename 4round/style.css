@@ -1,0 +1,11 @@
+body {
+  text-align: center;
+}
+.topContainer {
+  height: 100px;
+  width: 200px;
+}
+
+.topContainer img {
+  width: 25%;
+}
