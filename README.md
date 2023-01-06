@@ -52,9 +52,9 @@ body {
 }
 ```
 
-### 4.1 float arround image
+### 4.1 float (Don´t use it for positioning.)
 
-Without flexbox or grid arrangement of images and text.
+Wrapping text around a certain element.
 
 ![Picture-of-4.1Round](https://github.com/kohoki/CSS-Training/blob/e66addf55947b7e47bc63f722779ebed90783187/4.1round/1.png)
 
