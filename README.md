@@ -1,4 +1,4 @@
-# CSS-Training
+# CSS-Training (some basics)
 
 Collecting information to help me expand my knowledge.
 Based on the best of my knowledge and experience.
